@@ -1,5 +1,7 @@
 ![Slush node-cli Logo](https://github.com/afonsopacifer/slush-node-cli/blob/master/logo.png)
 
+[![Dependency Status](https://david-dm.org/afonsopacifer/slush-node-cli.svg)](https://david-dm.org/afonsopacifer/slush-node-cli)
+
 # Slush Node CLI
 
 > A slush generator for Nodejs CLI programs.
