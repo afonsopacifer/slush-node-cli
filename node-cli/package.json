@@ -1,0 +1,33 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "author": {
+    "name": "<%= appAuthor %>",
+    "email": "<%= appEmail %>"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= appAuthor %>/<%= appNameSlug %>/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= appAuthor %>/<%= appNameSlug %>"
+  },
+  "keywords": [
+  ],
+  "preferGlobal": true,
+  "main": "src/index.js",
+  "bin": {
+    "<%= appNameSlug %>": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.3"
+  }
+}
